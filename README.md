@@ -1,2 +1,2 @@
 # badbind
-A hidden bash reverse shell 
+A hidden python reverse shell 
