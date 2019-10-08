@@ -1,9 +1,14 @@
 # badbind
 A hidden python reverse shell 
+
 .
+
 ├── badbind.sh
+
 |────────────── Configuration script run on client with root permission
+
 |
+
 ├── badls
 
 |────────────── ls binary shim. make sure to change the ip address and port
